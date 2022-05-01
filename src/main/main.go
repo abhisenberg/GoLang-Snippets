@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	chapter1.CountDuplicates3()
+	chapter1.CreateLissajousGif()
 }
