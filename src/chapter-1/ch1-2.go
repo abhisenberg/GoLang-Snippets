@@ -3,6 +3,7 @@ package chapter1
 import (
 	"fmt"
 	"os"
+	"strings"
 )
 
 /**
@@ -15,5 +16,25 @@ func CommandLineArgs() {
 	for i := 1; i < len(os.Args); i++ {
 		s += os.Args[i] + " ~ "
 	}
+	fmt.Println(s)
+}
+
+/*
+Using for-range
+*/
+func CommandLineArgs2() {
+	var s string
+	for _, value := range os.Args[1:] {
+		s += value + " ~ "
+	}
+	fmt.Println(s)
+}
+
+/*
+Using join
+*/
+func CommandLineArgs3() {
+	var s string
+	s = strings.Join(os.Args[1:], " ~ ")
 	fmt.Println(s)
 }

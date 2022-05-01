@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	chapter1.CommandLineArgs()
+	chapter1.CountDuplicates3()
 }
