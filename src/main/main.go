@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	chapter1.CreateLissajousGif()
+	chapter1.FetchURL2()
 }
