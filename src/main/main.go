@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	chapter1.ConcurrentFetch()
+	chapter1.WebServer1()
 }
